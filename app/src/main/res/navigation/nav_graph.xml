@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto" android:id="@+id/nav_graph"
+    app:startDestination="@id/selectFragment">
+
+    <fragment
+        android:id="@+id/selectFragment"
+        android:name="com.mungeun.games.view.SelectFragment"
+        android:label="SelectFragment" >
+        <action
+            android:id="@+id/action_selectFragment_to_scrabbleFragment"
+            app:destination="@id/scrabbleFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/scrabbleFragment"
+        android:name="com.mungeun.games.view.ScrabbleFragment"
+        android:label="ScrabbleFragment" />
+</navigation>
