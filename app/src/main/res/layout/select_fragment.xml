@@ -17,6 +17,7 @@
 
     <com.google.android.material.button.MaterialButton
         android:id="@+id/btn_lotte"
+        android:text="로또번호"
         android:layout_width="0dp"
         android:layout_height="wrap_content"
         android:layout_marginStart="20dp"
@@ -27,6 +28,7 @@
 
     <com.google.android.material.button.MaterialButton
         android:id="@+id/Scrabble"
+        android:text="글자맞추기"
         android:layout_width="0dp"
         android:layout_height="wrap_content"
         android:layout_marginStart="20dp"
