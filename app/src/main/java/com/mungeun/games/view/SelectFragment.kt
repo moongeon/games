@@ -38,9 +38,14 @@ class SelectFragment : Fragment() {
         binding.lifecycleOwner = viewLifecycleOwner
 
         // 버튼에 대한 클릭 리스너를 설정합니다.
-        binding.Scrabble.setOnClickListener {
+        binding.btnScrabble.setOnClickListener {
             this.findNavController().popBackStack()
             this.findNavController().navigate(R.id.scrabbleFragment)
+        }
+
+        binding.btnCarrot.setOnClickListener {
+            this.findNavController().popBackStack()
+            this.findNavController().navigate(R.id.carrotFragment)
         }
     }
 

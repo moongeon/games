@@ -10,9 +10,16 @@
         <action
             android:id="@+id/action_selectFragment_to_scrabbleFragment"
             app:destination="@id/scrabbleFragment" />
+        <action
+            android:id="@+id/action_selectFragment_to_carrotFragment"
+            app:destination="@id/carrotFragment" />
     </fragment>
     <fragment
         android:id="@+id/scrabbleFragment"
         android:name="com.mungeun.games.view.ScrabbleFragment"
         android:label="ScrabbleFragment" />
+    <fragment
+        android:id="@+id/carrotFragment"
+        android:name="com.mungeun.games.view.CarrotFragment"
+        android:label="CarrotFragment" />
 </navigation>
